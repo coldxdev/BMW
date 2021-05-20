@@ -9,7 +9,8 @@ for (const tab of tabsHandlerElems){
                 item.classList.add('design-list__item_active');
             } else{
                 item.classList.remove('design-list__item_active')
-            }
+                
+            } 
         })
         tabsFieldElems.forEach(item => {
             if(tab.dataset.tabsHandler === item.dataset.tabsField){
